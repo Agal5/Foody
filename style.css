@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px ;
+    background-color:orange;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+
+}
+
+.sign-in ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.btn-signin{
+    border: none;
+    padding: 7px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+
+}
+button{
+    border: none;
+}
+
+/* Hero Section */
+
+.back{
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./img/img.jpg");
+    background-size: cover;
+    display:flex;
+    align-items:left;
+    justify-content:left;
+   
+}
+
+.back h1{
+    font-size:60px;
+    font-weight:bold;
+}
+.bg{
+    margin: 60px;
+}
+.h-up button{
+    background-color: rgba(255, 166, 0, 0.59);
+    border-radius: 30px;
+    padding: 7px;
+    color: white;
+    margin: 30px;
+}
+.h-heading{
+    margin: 30px;
+    font-size:larger;
+    color: white;
+    font-style: oblique;
+}
+.h-para{
+    margin: 30px;
+    color: white;
+}
+.h-button button{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+}
+.h-down{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: 100;
+    color: white;
+}
+
+/* MAin */
+
+.main-food{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+}
+
+.main-food div{
+    height: 100px;
+    width:100px;
+    background-color:rgb(255, 235, 199);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+.mmain>h1{
+    margin-top: 40px;
+    font-weight: 900;
+    text-align: center;   
+}
+.mmain>h2{
+    margin-top: 10px;
+    font-weight: 300;
+    text-align: center;  
+}
+.pop-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.pop-div{
+    width: 230px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.pop-div:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.pop-div img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.pop-div div{
+    padding: 15px;
+    text-align: left;
+}
+
+.pop-div h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.pop-div p{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.pop-div h4{
+    color: orange;
+    font-size: 16px;
+}
+
+.pop-div h6{
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.pop-headings h1{
+    margin-left: 30px;
+    font-size: 28px;
+}
+
+.pop-headings h3{
+    margin-left: 30px;
+    color:black;
+    font-weight: normal;
+}
+.center{
+
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+}
+.c-flex{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    text-align: center;
+    color:black;
+}
+.c-flex div{
+  
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    width: 200px;
+    line-height: 2;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.downbox{
+    color: white;
+    border-radius: 30px;
+    justify-items: center;
+    margin-top: 70px;
+    background-color: orange;
+    height: 300px;
+    width: 90%;
+    text-align: center;
+    margin-left: 70px;
+}
+.d-btn{
+    background-color: rgba(255, 166, 0, 0.59);
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin: 30px;
+    border: 2px solid white;
+
+}
+.d-btn:hover{
+     background-color: rgba(111, 0, 255, 0.116);
+     color: black;
+}
+.downbox h1{
+    padding-top: 90px;
+    font-weight: bolder;
+    
+}
+.downbox p{
+    padding-top: 30px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    color: white;
+    height: 300px;
+}
+.foot-flex{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    line-height: 2;
+}
